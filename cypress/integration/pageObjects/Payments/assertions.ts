@@ -7,6 +7,7 @@ class PaymentsAssertions {
     static checkingStatusInput() {
         cy.get('input').eq(0).should('have.id', 'statusInputField');
         return this;
+        
     }
 
     static checkingContatctNameInput() {
